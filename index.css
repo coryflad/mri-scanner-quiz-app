@@ -1,27 +1,15 @@
 body {
-    padding: 20px;
+    margin: 20px;
     color: black;
     background-color: gray;
 }
 
-header {
+.starting-screen {
     text-align: center;
     border: 1px solid black;
 }
 
-header li {
-    display: inline-block;
-    list-style: none;
-}
-
-.first-question {
+.main-screen {
     text-align: center;
-    margin: 20px;
-    border: 1px solid black;
-}
-
-.question-template {
-    text-align: center;
-    margin: 20px;
     border: 1px solid black;
 }
