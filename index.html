@@ -12,17 +12,28 @@
 </head>
 
 <body>
-    <main>
-        <section class="starting-screen">
-            <h1>
-                Magnetic Resonance Quiz App; "#1 starting-screen"
-            </h1>
-            <h2>How much do you know about Magnetic Resonance Imaging?</h2>
-            <p>
-                insert photo of an MRI image
-            </p>
-            <button>Start</button>
-        </section>
+    <header>
+        <div class="row">
+            <div class="col-12">
+                <h1>Magnetic Resonance Quiz App</h1>
+            </div>
+            <div class="quiestion-and-score"></div>
+        </div>
+    </header>
+    <main role="main" aria-live="assertive">
+        <fieldset>
+            <div class="row">
+                <div class="col-12">
+                    <p>This quiz is to analyze your basic knowledge of MR Scanners</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" id="start"> Start Quiz</button>
+                </div>
+            </div>
+        </fieldset>
+
 
     </main>
     <script
@@ -30,6 +41,7 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="store.js"></script>
+    <script src="index.js"></script>
 
 </body>
 

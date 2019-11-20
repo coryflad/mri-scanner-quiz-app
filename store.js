@@ -56,11 +56,16 @@ let STORE = {
         },
 
     ],
-    currentQuestion: 0,
-    score: 0
 };
 
-console.log(currentQuestion);
+let myDog = {
+    name: 'Stanley',
+    color: 'gray',
 
+    stanleyIs: function() {
+        return `${this.name} is a Minature Schnauzer and his fur is ${this.color}`;
+    }
+}
 
+console.log(myDog.stanleyIs());
 

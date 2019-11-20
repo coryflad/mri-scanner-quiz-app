@@ -3,23 +3,3 @@ body {
     color: black;
     background-color: gray;
 }
-
-.starting-screen {
-    text-align: center;
-    border: 1px solid black;
-}
-
-.main-screen {
-    text-align: center;
-    border: 1px solid black;
-}
-
-.answer-screen {
-    text-align: center;
-    border: 1px solid black;
-}
-
-.end-screen {
-    text-align: center;
-    border: 1px solid black;
-}
