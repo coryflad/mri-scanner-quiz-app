@@ -12,29 +12,43 @@
 </head>
 
 <body>
-    <header>
-        <div class="row">
-            <div class="col-12">
-                <h1>Magnetic Resonance Quiz App</h1>
-            </div>
-            <div class="quiestion-and-score"></div>
-        </div>
-    </header>
-    <main role="main" aria-live="assertive">
-        <fieldset>
-            <div class="row">
-                <div class="col-12">
-                    <p>This quiz is to analyze your basic knowledge of MR Scanners</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" id="start"> Start Quiz</button>
-                </div>
-            </div>
-        </fieldset>
 
-    </main>
+    <header class="banner-section">
+        <h1 class="heading">
+            <span>How well do you know MRI Scanners?</span>
+        </h1>
+    </header>
+
+    <section class="start-section" style="display: block;">
+        <h2 class="text"> Are you as cool as Nikola Tesla? </h2>
+        <p class="text"> Take this quiz to see how much you know about Magnetic Resonance Scanners.</p>
+        <button class="start-button" id="startQuizButton">Start</button>
+    </section>
+
+    <section class="quiz-section" style="display: none;">
+        <div id="question_wrapper">
+            <h1 class="text" id="question">The biggest and most important component of an MRI system is the:</h1>
+            <div id="choices">
+                <input class="option" type="radio" value="0" name="option">
+                <br>
+                <input class="option" type="radio" value="1" name="option">
+                <br>
+                <input class="option" type="radio" value="2" name="option">
+                <br>
+                <input class="option" type="radio" value="3" name="option">
+                <br>
+            </div>
+            <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
+        </div>
+    </section>
+
+    <section class="result-section" style="display: none;">
+        <h2 class="text"> Final Score </h2>
+        <h3 class="text" id="finalScore">10/10</h3>
+        <div id="result_msg"></div>
+        <button class="start-button" id="tryagain">Try Again</button>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="store.js"></script>
