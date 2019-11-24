@@ -2,59 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="What do you know about MRI Scanners?">
-    <title>MRI Quiz App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <meta charset="utf-8" />
+  <title>MR Quiz App</title>
+  <meta name="description" type="A quiz app about New World monkeys and their common characteristics.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-
-    <header class="banner-section">
-        <h1 class="heading">
-            <span>How well do you know MRI Scanners?</span>
-        </h1>
+  <main role="main" class="container">
+    <header role="banner" class="header">
+      <section>
+        <a href="index.html">
+        </a>
+      </section>
+      <section class="hideMe" style="display: none;">
+        <ul>
+          <li class="sizeMe">Question:
+            <span class="questionNumber">0</span>/5</li>
+          <li class="sizeMe">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+      </section>
     </header>
-
-    <section class="start-section" style="display: block;">
-        <h2 class="text"> Are you as cool as Nikola Tesla? </h2>
-        <p class="text"> Take this quiz to see how much you know about Magnetic Resonance Scanners.</p>
-        <button class="start-button" id="startQuizButton">Start</button>
+    <section role="region" class="jungleBox">
+      <section class="startQuiz box">
+        <h1>Do you know how cool MRI scanners are?</h1>
+        <button type="button" class="startButton button">Start</button>
+      </section>
+      <section class="questionBox box altBox">
+      </section>
+      <section class="response box altBox"></section>
+      <section class="final box altBox"></section>
     </section>
+  </main>
 
-    <section class="quiz-section" style="display: none;">
-        <div id="question_wrapper">
-            <h1 class="text" id="question">The biggest and most important component of an MRI system is the:</h1>
-            <div id="choices">
-                <input class="option" type="radio" value="0" name="option">
-                <br>
-                <input class="option" type="radio" value="1" name="option">
-                <br>
-                <input class="option" type="radio" value="2" name="option">
-                <br>
-                <input class="option" type="radio" value="3" name="option">
-                <br>
-            </div>
-            <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
-            <div class="number-correct" id="numbercorrectDisplay">Score: 0</div>
-        </div>
-    </section>
-
-    <section class="result-section" style="display: none;">
-        <h2 class="text"> Final Score </h2>
-        <h3 class="text" id="finalScore">5/5</h3>
-        <div id="result_msg"></div>
-        <button class="start-button" id="tryagain">Try Again</button>
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-    <script src="store.js"></script>
-    <script src="script.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

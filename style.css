@@ -2,7 +2,9 @@
 
 body {
     text-align: center;
-    background-color: lig;
+    background-color: lightgrey;
+    font-size: 40px;
+    margin: 60px;
 }
 
 
