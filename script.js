@@ -58,7 +58,7 @@ const STORE = [
   },
   {//6
     question:
-      'The most common type of magne used in a MRI system is the:',
+      'The most common type of magnet used in a MRI system is the:',
     answers: [
       'resistive magnet',
       'permanent magnet',
@@ -173,7 +173,7 @@ function startQuiz() {
 //submits a selected answer and checks it against the correct answer
 //runs answer functions accordingly
 function submitAnswer() {
-  $('.jungleBox').on('submit', function (event) {
+  $('.mriBox').on('submit', function (event) {
     event.preventDefault();
     $('.altBox').hide();
     $('.response').show();
@@ -233,7 +233,7 @@ function wrongAnswer() {
 
 //generates the next question
 function nextQuestion() {
-  $('.jungleBox').on('click', '.nextButton', function (event) {
+  $('.mriBox').on('click', '.nextButton', function (event) {
     $('.altBox').hide();
     $('.questionBox').show();
     updateQuestionNumber();
@@ -261,9 +261,9 @@ function finalScore() {
     'You should stick to X-Rays?'
   ];
 
-  if (score >= 4) {
+  if (score >= 8) {
     array = great;
-  } else if (score < 4 && score >= 2) {
+  } else if (score < 8 && score >= 5) {
     array = good;
   } else {
     array = bad;
@@ -278,7 +278,7 @@ function finalScore() {
 
 //takes user back to the starting view to restart the quiz
 function restartQuiz() {
-  $('.jungleBox').on('click', '.restartButton', function (event) {
+  $('.mriBox').on('click', '.restartButton', function (event) {
     event.preventDefault();
     resetStats();
     $('.altBox').hide();
