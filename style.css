@@ -47,7 +47,8 @@ main {
 
 
 label {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .button {
@@ -60,6 +61,7 @@ ul {
 
 .header li {
     display: inline-block;
+    margin-left: auto;
     padding: 10px;
 }
 
