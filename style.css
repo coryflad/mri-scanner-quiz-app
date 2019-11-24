@@ -2,7 +2,7 @@
 
 body {
     text-align: center;
-    background-color: darkslategrey;
+    background: url(images/scan-room.jpg);
     color: white;
     font-size: 40px;
     margin: 60px;
