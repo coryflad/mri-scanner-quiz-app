@@ -252,7 +252,7 @@ function finalScore() {
   ];
 
   const good = [
-    'Good, not great.',
+    'Not bad...',
     'You might\'ve had an MRI before ...'
   ];
 
