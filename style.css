@@ -2,9 +2,15 @@
 
 body {
     text-align: center;
-    background-color: lightgrey;
+    background-color: darkslategrey;
+    color: white;
     font-size: 40px;
     margin: 60px;
 }
 
-
+ul {
+    padding: 40px;
+}
+.sizeMe {
+    padding: 20px;
+}
