@@ -35,19 +35,19 @@ body {
 
 
 
-.altBox {
+main {
     background-image: url("../images/transparent.jpg");
     border-radius: 0.5rem;
     padding: 2rem;
-    width: 50%;
+    width: 75%;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 label {
     display: block;
-    padding: 5px;
 }
 
 .button {
@@ -63,9 +63,7 @@ ul {
     display: inline-block;
 }
 
-.sizeMe {
-    padding-top: 20px;
-}
+
 
 
 
