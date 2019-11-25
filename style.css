@@ -35,7 +35,7 @@ body {
 
 
 
-.mriBox, .altBox {
+.mriBox {
     background-image: url("../images/transparent.jpg");
     border-radius: 0.5rem;
     padding: 2rem;
