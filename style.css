@@ -42,7 +42,7 @@ h1 {
 
 .startQuiz, .altBox {
     text-align: center;  
-    background-image: url("/images/transparent.jpg");
+    background-image: url("../images/transparent.jpg");
     border-radius: 0.5rem;
     padding: 2rem;
     width: 50%;
