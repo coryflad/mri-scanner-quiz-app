@@ -25,8 +25,8 @@ html {
     background-size: cover;
 }
 
-main {
-    color:  white;  
+.container {
+    color: white;  
     font-size: 24px;
     margin: 60px;
     font-family: 'Acme', sans-serif;
@@ -36,9 +36,9 @@ h1 {
   font-size: 45px;
 }
 
-.startQuiz {
+.startQuiz, .altBox {
   text-align: center;
-  background-image: url("../images/transparent.jpg");
+  background-image: url("/images/transparent.jpg");
   border-radius: 0.5rem;
   padding: 2rem;
   width: 50%;
@@ -47,20 +47,13 @@ h1 {
   margin-right: auto;
 }
 
-.hideMe {
-  text-align: center;
+
+.sizeMe {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
 }
 
-.altBox {
-    text-align: center;  
-    background-image: url("../images/transparent.jpg");
-    border-radius: 0.5rem;
-    padding: 2rem;
-    width: 50%;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 .button {
