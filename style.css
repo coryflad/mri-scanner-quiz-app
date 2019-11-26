@@ -26,7 +26,7 @@ html {
 }
 
 main {
-    color:  black;  
+    color:  white;  
     font-size: 24px;
     margin: 60px;
     font-family: 'Acme', sans-serif;
@@ -34,6 +34,21 @@ main {
 
 h1 {
   font-size: 45px;
+}
+
+.startQuiz {
+  text-align: center;
+  background-image: url("../images/transparent.jpg");
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hideMe {
+  text-align: center;
 }
 
 .altBox {
