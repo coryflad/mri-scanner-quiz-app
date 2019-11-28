@@ -49,12 +49,22 @@ h1 {
 
 
 .sizeMe {
-  display: flex;
+  display: block;
   padding: 10px;
   justify-content: center;
 }
 
+label input, label span {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
 
+}
+
+label input {
+  padding-right: 10px;
+  padding-top: 5px;
+}
 
 .button {
   height: 50px;
