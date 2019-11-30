@@ -106,8 +106,8 @@ const STORE = [
       'Gradient magnets',
     answerExplaination: ' Gradient magnets are small magnets that change the field within an MRI system. When turned on and off very rapidly, they essentially change the focus of the overall field.'
   },
-  {//10
-    question:
+    {//10
+      question:
       'What unit of measure are MRI scanners calibrated to?',
     answers: [
       'Centimeters',
@@ -230,7 +230,6 @@ function wrongAnswer() {
     <button type="button" class="nextButton button">Next</button>`
   );
 }
-
 
 //generates the next question
 function nextQuestion() {
